@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* HEADER */
+header {
+  display: flex;
+}
+.logo {
+  align-items: center;
+  width: 200px;
+}
+.links {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.links li a {
+  font-size: 30px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.links li a:hover {
+  font-size: 250%;
+}
+/* CORPO */
+img {
+  width: 100%;
+  justify-content: center;
+  margin: 0px;
+}
+.texto {
+  margin: 0px;
+  padding: 10px;
+  align-items: center;
+  background: black;
+  font-size: 20px;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.texto img {
+  align-content: center;
+  width: 400px;
+}
+.form {
+  margin: 50px;
+  width: 60%;
+}
+.form h1 {
+  margin-bottom: 20px;
+}
+.form input,
+textarea {
+  width: 100%;
+  height: 50px;
+  padding-left: 15px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  border: 1px solid rgb(80, 80, 80);
+}
+.form textarea {
+  height: 150px;
+  padding-top: 10px;
+}
+.form .botao {
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* FOOTER */
+footer {
+  justify-content: center;
+}
+.redes_sociais {
+  background: black;
+  align-content: center;
+  color: white;
+  padding: 10px;
+}
+.redes {
+  margin: 10px 0px;
+  display: flex;
+  width: 250px;
+  border-radius: 20px;
+  background: white;
+  padding: 5px;
+}
+.redes a img {
+  height: 60px;
+}

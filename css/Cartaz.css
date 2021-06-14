@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* HEADER */
+header {
+  display: flex;
+}
+.logo {
+  align-items: center;
+  width: 200px;
+}
+.links {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.links li a {
+  font-size: 30px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.links li a:hover {
+  font-size: 250%;
+}
+/* BODY */
+img {
+  width: 100%;
+  justify-content: center;
+  margin: 0px;
+}
+main pre {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+/* FOOTER */
+footer {
+  justify-content: center;
+}
+.redes_sociais {
+  background: black;
+  align-content: center;
+  color: white;
+  padding: 10px;
+}
+.redes {
+  margin: 10px 0px;
+  display: flex;
+  width: 250px;
+  border-radius: 20px;
+  background: white;
+  padding: 5px;
+}
+.redes a img {
+  height: 60px;
+}
